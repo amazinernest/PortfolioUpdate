@@ -1,0 +1,123 @@
+@import url(//db.onlinewebfonts.com/c/88f10bf18a36407ef36bf30bc25a3618?family=Suisse+Intl);
+
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+
+body {
+   background: linear-gradient(-45deg, #edc481, #ede7de, #e19519, #806b48);
+   background-size: 400% 400%;
+   animation: gradient 15s ease infinite;
+   min-height: 100vh;
+   font-family: 'Suisseintl', 'sans-serif';
+   color: #0d0d0d;
+   margin: 0 auto;
+}
+
+@keyframes gradient {
+   0% {
+      background-position: 0% 50%;
+   }
+
+   50% {
+      background-position: 100% 50%;
+   }
+
+   100% {
+      background-position: 0% 50%;
+   }
+}
+
+.container{
+   max-width: 1000px;
+   display: flex ;
+   justify-content: space-between;
+   margin: 0 auto;
+   align-items: center;
+}
+
+main .container{
+   display: flex;
+   max-width: 1000px;
+   justify-content: space-between;
+   margin: 0 auto;
+   align-items: flex-start;
+}
+
+header, main{
+   padding: 50px 0;
+}
+
+.left{
+   width: 700px;
+}
+
+h1{
+   font-size: 3rem;
+}
+
+i{
+   color: #0d0d0d;
+   font-size: 1.2rem;
+   margin-right: 20px;
+}
+
+i:hover{
+   color: #0d0d0d71;
+}
+
+
+.logo{
+   font-weight: bold;
+   font-size: 3rem;
+}
+
+p{
+   font-size: 1.5rem;
+   max-width: 600px;
+}
+
+.first_para{
+   margin-top: 20px;
+}
+
+.second_para{
+   margin-top: 20px;
+}
+
+a{
+   color: #0d0d0d;
+   font-size: 1.3rem;
+   text-decoration: none;
+}
+
+a:hover{
+   text-decoration: underline;
+}
+
+.link_box   {
+   margin-top: 10px; 
+}
+
+
+h6{
+   text-align: center;
+   margin-top: 80px;
+}
+
+
+
+@media (max-width:768px){
+   main .container{
+      display: grid;
+      grid-template-columns: 1fr;
+      padding: 50px 20px;
+   }
+
+   h2{
+      margin-top: 20px;
+   }
+}
