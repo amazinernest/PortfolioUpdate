@@ -108,6 +108,46 @@ h6{
    margin-top: 80px;
 }
 
+.mission_accomplished{
+   margin-top: 50px;
+}
+
+section p{
+   margin-top: 10px;
+}
+
+.project_btn{
+   border: 1px solid #0d0d0d;
+   border-radius: 50px;
+   padding: 5px 20px;
+   margin-top: 20px;
+   display: inline-block;
+   text-decoration: none; 
+}
+
+.project_two{
+   margin-top: 50px;
+}
+
+.skills_Container{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.skills_Container h4{
+   text-align: center;
+}
+
+li{
+   list-style-type: square;
+   margin-top: 10px;
+   font-size: 1.2rem;
+}
+
+
+
+
 
 
 @media (max-width:768px){
@@ -119,5 +159,11 @@ h6{
 
    h2{
       margin-top: 20px;
+   }
+
+    .skills_Container{
+         display: grid;
+         grid-template-columns: 1fr;
+      }
    }
 }
